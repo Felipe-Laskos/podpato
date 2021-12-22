@@ -1,0 +1,26 @@
+@import url(./base/reset.css);
+@import url(./base/variaveis.css);
+@import url(./base/cabecalho.css);
+@import url(./base/bootstrap.css);
+@import url(./base/rodape.css);
+
+body {
+    background-color: var(--preto-diferenciado);
+    font-family: var(--fonte-titulo);
+}
+
+*::selection {
+    background: var(--vermelho-escuro);
+    color: var(--branco-diferenciado);
+}
+
+main, footer {
+    width: 94%;
+    margin-left: 6%;
+    margin-top: 55px;
+}
+
+a, a:hover, a:focus {
+    color: var(--branco-diferenciado);
+    text-decoration: none;
+}

@@ -1,0 +1,51 @@
+footer h3 {
+    margin: 0;
+}
+.fa-youtube {
+    margin-right: 5px;
+    color: red;
+}
+footer a, footer a:hover {
+    text-decoration: none;
+    color: #000000;
+}
+
+.rodape {
+    background-color: var(--preto-escuro);
+    border-left: 1px solid var(--branco-diferenciado);
+    color: black;
+    font-family: var(--fonte-tipo-dois);
+    margin-top: 50px;
+    padding: 10px 0;
+    display: flex;
+    align-items: center;
+}
+.rodape__credito {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.rodape__credito-titulo {
+    color: var(--branco-diferenciado);
+    font-size: 20px;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.rodape__credito-imagem {
+    width: 25px;
+    margin-left: 5px;
+    margin-right: 2px;
+}
+.fa-copyright {
+    margin-right: 2px;
+}
+
+
+@media screen and (max-width: 700px) {
+    .rodape {
+        display: none;
+    }
+}
