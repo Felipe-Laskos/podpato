@@ -773,7 +773,7 @@ div.animacao span:nth-child(4) {
     .rodape {
         display: none;
     }
-    .video__fundo:last-child {
+    .videos {
         margin-bottom: 75px;
     }
 }
@@ -795,7 +795,7 @@ div.animacao span:nth-child(4) {
     .rodape {
         display: none;
     }
-    .video__fundo:last-child {
+    .videos {
         margin-bottom: 75px;
     }
 }
@@ -811,7 +811,7 @@ div.animacao span:nth-child(4) {
     .rodape {
         display: none;
     }
-    .video__fundo:last-child {
+    .videos {
         margin-bottom: 75px;
     }
 }
