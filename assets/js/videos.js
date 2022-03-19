@@ -50,11 +50,6 @@ var qualVideo = 0;
 var animacao = 0;
 var carregarVideo = 0;
 
-// var scroll;
-// window.addEventListener("scroll", function (event) {
-//     scroll = this.scrollY;
-// });
-
 var pagCarregou = false;
 var carregandoPodcast = false;
 
@@ -93,15 +88,7 @@ function apareceVideos() {
         posicaoVideo = window.innerHeight - videoAtual.getBoundingClientRect()["y"];
         posicaoDesejada = tamanhoVideo / 2;
     }
-    /**
-    if(posicaoDesejada <= posicaoVideo && pagCarregou == true && animacao < videos.length && typeof players[animacao] != "undefined" && podcastCarregado[animacao] == true) {
-      videoAtual.classList.remove("inicio-videos");
-      animacao++;
-      if(videoAtual.classList.contains("nao-aparece")) {
-        apareceVideos();
-      }
-    }
-    */
+    
     if(posicaoDesejada <= posicaoVideo && pagCarregou == true && animacao < videos.length) {
       videoAtual.classList.remove("inicio-videos");
       animacao++;

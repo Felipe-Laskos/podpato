@@ -1,23 +1,14 @@
-// 2. This code loads the IFrame Player API code asynchronously.
 var tag = document.createElement('script');
 
 tag.src = "https://www.youtube.com/iframe_api";
 var firstScriptTag = document.getElementsByTagName('script')[0];
 firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
 
-// 3. This function creates an <iframe> (and YouTube player)
-//    after the API code downloads.
-
 var players = [];
-
 
 var pauseEplay = 0;
 
-
 var maximixaMinimiza = 0;
-
-
-
 
 var botoesPulaParaTras = document.getElementsByClassName("fa-backwardVideo");
 var botoesPausa = document.getElementsByClassName("fa-pauseVideo");
@@ -35,8 +26,6 @@ var animaCliqueFrente = document.getElementsByClassName("cliqueFrente");
   elemento.classList.add("nao-aparece");
 });
 
-
-
 var iconesFullScreen = document.getElementsByClassName("icone--full-screen");
 
 var temposVideos = document.getElementsByClassName("tempo-video");
@@ -49,14 +38,9 @@ var btnContinuarAssistindo = document.getElementById("btn-continua-assistindo");
 var btnOuvirVideoSelecionado = document.getElementById("btn-ouvir-selecionado");
 var btnAssistirVideoSelecionado = document.getElementById("btn-assistir-selecionado");
 
-
-// 5. The API calls this function when the player's state changes.
-//    The function indicates that when playing a video (state=1),
-//    the player should play for six seconds and then stop.
-
 var i;
 for (i = 0; i < botoesPausa.length; i++) {
-      botoesPausa[i].style.display = "none";
+  botoesPausa[i].style.display = "none";
 }
 
 function tocarVideo() {
