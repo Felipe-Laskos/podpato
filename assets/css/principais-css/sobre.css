@@ -46,7 +46,7 @@ main {
     height: 175px;
 }
 .perfils__borda:nth-child(1) .perfils__imagem {
-    background: url(../../img/felipe-laskos.jpg) center / cover no-repeat;
+    background: url(../../img/felipe-laskos.jpeg) center / cover no-repeat;
 }
 
 
